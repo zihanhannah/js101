@@ -9,4 +9,9 @@ let onMarsRightNow = false;
 
 let fruits = ["mango", "banana", "guava", "kiwi", "strawberry"];
 
+//  Exercise 3
+//  Create a variable named vegetables and assign it an array of fruits containing the following vegetable names as strings:
+//  eggplant, broccoli, carrot, cauliflower, and zucchini
+
+let vegetables = ["eggplant","broccoli", "carrot","cauliflower","zucchini"];
 
