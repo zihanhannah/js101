@@ -15,3 +15,9 @@ let fruits = ["mango", "banana", "guava", "kiwi", "strawberry"];
 
 let vegetables = ["eggplant","broccoli", "carrot","cauliflower","zucchini"];
 
+
+// Exercise 4
+// Create a variable named numbers and assign it an array of numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+let numbers = [1,2,3,4,5,6,7,8,9,10];
+
