@@ -35,3 +35,7 @@ fruits.push("tomato");
 vegetables.push("tomato");
 // console.log(vegetables);
 
+// Exercise 7
+// Given the array of numbers defined below, reverse the array of numbers that you created above.
+numbers.reverse();
+console.log(numbers);
