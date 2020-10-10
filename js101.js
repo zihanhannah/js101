@@ -26,4 +26,12 @@ let numbers = [1,2,3,4,5,6,7,8,9,10];
 // *Hint* Recommend finding and using a built-in JS operation to add to an array rather than recreating the array.
 
 fruits.push("tomato");
+// console.log(fruits);
+
+// Exercise 6
+// add the string "tomato" onto the end of the vegetables array.
+// Recommend using the built-in JS operation to add to an array.
+
+vegetables.push("tomato");
+// console.log(vegetables);
 
