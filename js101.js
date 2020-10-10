@@ -38,4 +38,9 @@ vegetables.push("tomato");
 // Exercise 7
 // Given the array of numbers defined below, reverse the array of numbers that you created above.
 numbers.reverse();
-console.log(numbers);
+// console.log(numbers);
+
+// Exercise 8
+// Sort the vegetables in alphabetical order. Recommend finding a way to sort the array with a built-in method
+vegetables.sort();
+console.log(vegetables);
