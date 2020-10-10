@@ -43,4 +43,10 @@ numbers.reverse();
 // Exercise 8
 // Sort the vegetables in alphabetical order. Recommend finding a way to sort the array with a built-in method
 vegetables.sort();
-console.log(vegetables);
+// console.log(vegetables);
+
+// Exercise 9
+// Write the code necessary to sort the fruits in reverse alphabetical order
+
+fruits = fruits.sort().reverse();
+console.log(fruits);
