@@ -57,4 +57,12 @@ fruits = fruits.sort().reverse();
 // *hint* the search engine search here would be "how to combine two arrays in JavaScript", for example.
 
 let fruitsAndVeggies = fruits.concat(vegetables);
-console.log(fruitsAndVeggies);
+// console.log(fruitsAndVeggies);
+
+
+// Exercise 11
+// Write a function definition for a function named addOne that takes in a number and returns that number plus one
+function addOne(num){
+    return num +1;
+}
+
