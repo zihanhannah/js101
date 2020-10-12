@@ -74,3 +74,12 @@ function isPositive(num){
 }
 // console.log(isPositive(-1));
 
+// Exercise 13
+// Write a function definition named isNegative that takes in a number and returns true or False if that number is negative.
+
+function isNegative(num){
+    return num<0;
+}
+
+// console.log(isNegative(0));
+
