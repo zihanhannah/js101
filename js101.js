@@ -83,3 +83,15 @@ function isNegative(num){
 
 // console.log(isNegative(0));
 
+// Exercise 14
+// Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
+
+function isOdd(num){
+    if(num % 2 == 0){
+        return true;
+    }
+    return false;
+}
+
+// console.log(isOdd("10"));
+// console.log(isOdd(-1));
