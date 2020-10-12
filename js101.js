@@ -66,3 +66,11 @@ function addOne(num){
     return num +1;
 }
 
+// Exercise 12
+// Write a function definition named isPositive that takes in a number and returns true or false if that number is positive.
+
+function isPositive(num){
+    return (num>0);
+}
+// console.log(isPositive(-1));
+
