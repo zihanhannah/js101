@@ -87,11 +87,15 @@ function isNegative(num){
 // Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
 
 function isOdd(num){
-    if(num % 2 == 0){
-        return true;
-    }
-    return false;
+  return (num % 2) !=0;
 }
-
+//
 // console.log(isOdd("10"));
 // console.log(isOdd(-1));
+
+
+// Exercise 15
+// Write a function definition named isEven that takes in a number and returns true or false if that number is even.
+function isEven(num){
+    return (num % 2 == 0);
+}
