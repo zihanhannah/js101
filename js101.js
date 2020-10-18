@@ -99,3 +99,9 @@ function isOdd(num){
 function isEven(num){
     return (num % 2 == 0);
 }
+
+// Exercise 16
+// Write a function definition named identity that takes in any input and returns that input. Don't overthink this one!
+function identity(input){
+    return input;
+}
