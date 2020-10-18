@@ -105,3 +105,66 @@ function isEven(num){
 function identity(input){
     return input;
 }
+
+// Exercise 17
+// Write a function definition named isPositiveOdd that takes in a number and returns true or false if the value is both greater than zero and odd
+
+function isPositiveOdd(a){
+   return (a > 0 && a % 2 !== 0);
+}
+
+// Exercise 18
+// Write a function definition named isPositiveEven that takes in a number and returns true or false if the value is both greater than zero and even
+
+function isPositiveEven(b){
+    return (b > 0 && b % 2 === 0 );
+}
+
+// Exercise 19
+// Write a function definition named isNegativeOdd that takes in a number and returns true or false if the value is both less than zero and odd.
+function isNegativeOdd(c){
+    return (c<0 && c % 2 !==0);
+}
+
+// Exercise 20
+// Write a function definition named isNegativeEven that takes in a number and returns true or false if the value is both less than zero and even.
+
+function isNegativeEven(d){
+    return (d < 0 && d % 2 === 0 );
+}
+
+// Exercise 21
+// Write a function definition named half that takes in a number and returns half the provided number.
+
+function half(e){
+    return e /2;
+}
+
+// Exercise 22
+// Write a function definition named double that takes in a number and returns double the provided number.
+
+function double(num){
+    return num * 2;
+}
+
+//
+// Exercise 23
+// Write a function definition named triple that takes in a number and returns triple the provided number.
+
+function triple(num){
+    return num * 3;
+}
+
+// Exercise 24
+// Write a function definition named reverseSign that takes in a number and returns the provided number but with the sign reversed.
+
+function reverseSign(num){
+    return num * (-1);
+}
+
+//// Exercise 25
+// // Write a function definition named absoluteValue that takes in a number and returns the absolute value of the provided number
+/***** absolute method: Math.abs(num) *****/
+function absoluteValue(num){
+    return Math.abs(num);
+}
