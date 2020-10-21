@@ -309,9 +309,19 @@ function hasVowels(value) {
     }
 }
 
-// Exercise 44
-// Write a function definition named hasVowels that takes in value and returns true if the string contains any vowels.
+// console.log(hasVowels("o"));
 
-function hasVowels(){
-
+// Exercise 45
+// Write a function definition named countVowels that takes in value and returns the count of the nubmer of vowels in a sequence.
+function countVowels(val){
+    let vowelString = "aeiouAEIOU";
+    let sum = 0;
+    for(let i =0; i < val.length; i++){
+        if(vowelString.indexOf(val[i]) !== -1){
+            sum++;
+        }
+    }
+    return sum;
 }
+
+// console.log(countVowels("nihaoHello"));
