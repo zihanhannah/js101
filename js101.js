@@ -323,5 +323,19 @@ function countVowels(val){
     }
     return sum;
 }
-
 // console.log(countVowels("nihaoHello"));
+
+// // Exercise 46
+// // Write a function definition named removeVowels that takes in string and returns the string without any vowels
+function removeVowels(str){
+    let vowelString = "aeiouAEIOU";
+    let newString = "";
+    for(let i = 0 ; i < str.length; i++){
+        if(vowelString.indexOf(str[i]) == -1){
+            newString += str[i]
+        }
+    }
+    return newString;
+}
+
+// console.log(removeVowels("helloCodeup"));
