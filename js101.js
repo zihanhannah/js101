@@ -339,3 +339,111 @@ function removeVowels(str){
 }
 
 // console.log(removeVowels("helloCodeup"));
+
+// Exercise 47
+// Write a function definition named startsWithVowel that takes in string and true if the string starts with a vowel
+function startsWithVowel(str){
+    let vowelString = "aeiouAEIOU";
+    if(vowelString.indexOf(str[0]) !== -1){
+        return true;
+    }
+    return false;
+}
+
+// console.log(startsWithVowel("a,hello"));
+
+// Exercise 48
+// Write a function definition named endsWithVowel that takes in string and true if the string ends with a vowel
+function endsWithVowel(str){
+    let vowelString = "aeiouAEIOU";
+    if(vowelString.indexOf(str[str.length-1]) !== -1){
+        return true;
+    }
+    return false;
+}
+
+// console.log(endsWithVowel("a,hello"));
+
+// Exercise 49
+// Write a function definition named startsAndEndsWithVowel that takes in string and returns true if the string starts and ends with a vowel
+function startsAndEndsWithVowel(str){
+    if(endsWithVowel(str) == true && startsWithVowel(str) == true){
+        return true;
+    }
+    return false;
+}
+
+// console.log(startsAndEndsWithVowel("hello"));
+// Exercise 50
+// Write a function definition named first that takes in sequence and returns the first value of that sequence.
+
+function first(value){
+    return value[0];
+}
+
+// console.log(first("ubuntu"));
+// console.log(first([1, 2, 3]));
+
+
+// Exercise 54
+// Write a function definition named last that takes in sequence and returns the last value of that sequence.
+function last(value){
+    return value[value.length-1];
+
+}
+
+// console.log(last(["JS", "is", "awesome"]));
+// console.log(last("ubuntu"));
+// console.log(last([1, 2, 3]));
+
+// Exercise 57
+// Write a function definition named firstAndSecond that takes in sequence and returns the first and second value of that sequence as an array
+
+function firstAndSecond(arr){
+    return arr.slice(0,2);
+}
+
+// console.log(firstAndSecond(["strawberry", "kiwi", "mango", "guava"]));
+
+// Exercise 58
+// Write a function definition named firstAndLast that takes in sequence and returns the first and last value of that sequence as an array
+
+function firstAndLast(arr){
+    return arr.slice(0,1).concat(arr.slice(arr.length-1,));
+}
+
+// console.log(firstAndLast([1, 2, 3, 4]));
+
+// Exercise 59
+// Write a function definition named firstToLast that takes in sequence and returns the sequence with the first value moved to the end of the sequence.
+
+function firstToLast(value){
+    let start = value[0];
+    value = value.slice(1,);
+    value.push(start);
+    return value;
+
+}
+
+// console.log(firstToLast([1, 2, 3, 4]));
+
+// Exercise 60
+// Write a function definition named sumAll that takes in sequence of numbers and returns all the numbers added together.
+
+function sumAll(arr){
+    let sum = 0;
+    for(let i = 0; i < arr.length; i++){
+        sum += arr[i];
+    }
+    return sum;
+}
+
+//  Exercise 61
+//  Write a function definition named mean that takes in sequence of numbers and returns the average value
+function mean(arr){
+    return sumAll(arr)/arr.length;
+}
+
+// console.log(mean([1, 2, 3, 4]));
+
+
