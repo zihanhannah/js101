@@ -447,3 +447,14 @@ function mean(arr){
 // console.log(mean([1, 2, 3, 4]));
 
 
+// Exercise 62
+// Write a function definition named median that takes in sequence of numbers and returns the average value
+
+function median(num){
+    if (num.length % 2 === 0){
+        return (num[num.length / 2] + num[num.length / 2 - 1]) / 2;
+    } else {
+        return (num[parseInt(num.length / 2)]);
+    }
+}
+
